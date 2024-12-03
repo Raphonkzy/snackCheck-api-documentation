@@ -14,7 +14,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.46">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
     
     
       
@@ -735,9 +735,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#get-historiessnackname" class="md-nav__link">
+  <a href="#get-historiessnackid" class="md-nav__link">
     <span class="md-ellipsis">
-      GET /histories/{{snackName}}
+      GET /histories/{{snackId}}
     </span>
   </a>
   
@@ -811,15 +811,15 @@
                 &quot;protein&quot;: 8,
                 &quot;sodium&quot;: 1.5
             },
-            &quot;health_status&quot;: &quot;Healthy&quot;,
-            &quot;recommendation&quot;: &quot;Good to consume 1 time per day&quot;,
+            &quot;health_status&quot;: &quot;health status result&quot;,
+            &quot;recommendation&quot;: &quot;recommendation result&quot;
             &quot;createdAt&quot;: &quot;2024-11-29T12:58:48.181Z&quot;
         }
     ]
 }
 </code></pre>
-<h2 id="get-historiessnackname">GET /histories/{{snackName}}</h2>
-<p>This API is used to get history by snack name.</p>
+<h2 id="get-historiessnackid">GET /histories/{{snackId}}</h2>
+<p>This API is used to get history by snack id.</p>
 <p>header:</p>
 <pre><code>{
     &quot;Authorization&quot;: &quot;Bearer urAccessToken&quot;
@@ -830,7 +830,8 @@
     &quot;status&quot;: &quot;success&quot;,
     &quot;message&quot;: &quot;Snack successfully predicted&quot;,
     &quot;result&quot;: {
-        &quot;snackName&quot;: &quot;Chips 1&quot;,
+        &quot;snackId&quot;: &quot;619ef4fffe31b9d8&quot;,
+        &quot;snackName&quot;: &quot;Chips 2&quot;,
         &quot;nutritions&quot;: {
             &quot;fat&quot;: 34,
             &quot;saturated_fat&quot;: 2,
@@ -840,10 +841,11 @@
             &quot;protein&quot;: 8,
             &quot;sodium&quot;: 1.5
         },
-        &quot;health_status&quot;: &quot;Healthy&quot;,
-        &quot;recommendation&quot;: &quot;Good to consume 1 time per day&quot;
-    }
+        &quot;health_status&quot;: &quot;health status result&quot;,
+        &quot;recommendation&quot;: &quot;recommendation result&quot;
+    }
 }
+
 </code></pre>
 
 

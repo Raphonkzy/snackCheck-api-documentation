@@ -14,7 +14,7 @@
       
       
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.46">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
     
     
       
@@ -722,6 +722,52 @@
 
 
 <h1 id="snackcheck-api-documentation">snackCheck API Documentation</h1>
+<p>The SnackCheck API is a web service that enables interaction with various features of the SnackCheck project. It employs bearer token authentication to ensure secure access to its endpoints. To use the API, you must first obtain a bearer token by logging in with valid credentials. This token must then be included in the Authorization header of each API request.</p>
+<p>The SnackCheck API provides the following key functionalities:</p>
+<ul>
+<li><strong>User Management</strong>: Facilitates user registration, login, and profile management.</li>
+<li><strong>Snack Management</strong>: Allows users to create prediction, view histories, and search history by id.</li>
+</ul>
+<p>To interact with the API, send HTTP requests to the relevant endpoints, including the necessary parameters and the bearer token in the header. Responses are provided in JSON format, containing either the requested data or error messages.</p>
+<p>Ensure the bearer token is included in the header of all requests requiring authentication to securely access the available features. For detailed information about endpoints, request parameters, and response structures, refer to the API documentation. Note that unauthorized usage or misuse of the SnackCheck API will be addressed accordingly.</p>
+<hr />
+<h1 id="base-url">Base URL</h1>
+<ol>
+<li>Base URL for all API endpoints: <code>https://backend-dot-capstone-snackcheck.et.r.appspot.com</code></li>
+<li>Base URL for snack: <code>https://backend-dot-capstone-snackcheck.et.r.appspot.com/snack</code></li>
+<li>Base URL for accounts: <code>https://backend-dot-capstone-snackcheck.et.r.appspot.com/auth</code></li>
+<li>Base URL for profile: <code>https://backend-dot-capstone-snackcheck.et.r.appspot.com/profile</code></li>
+</ol>
+<hr />
+<h1 id="list-of-contents">List of Contents</h1>
+<ol>
+<li>
+<p>Related to user account</p>
+<ul>
+<li><a href="Account/register/">/register</a></li>
+<li><a href="Account/accounts/">/accounts</a></li>
+<li><a href="Account/login/">/login</a></li>
+<li><a href="Account/password/">/password</a></li>
+<li><a href="Account/token/">/token</a></li>
+<li><a href="Account/logout/">/logout</a></li>
+</ul>
+</li>
+<li>
+<p>Related to user profile</p>
+<ul>
+<li><a href="Profile/photo/">/photo</a></li>
+<li><a href="Profile/fullname/">/fullname</a></li>
+<li><a href="Profile/profile/">/profile</a></li>
+</ul>
+</li>
+<li>
+<p>Related to app features</p>
+<ul>
+<li><a href="Snack/predicts/">/predicts</a></li>
+<li><a href="Snack/histories/">/histories</a></li>
+</ul>
+</li>
+</ol>
 
 
 
