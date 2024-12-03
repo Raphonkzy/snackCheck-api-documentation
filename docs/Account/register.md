@@ -1,5 +1,7 @@
 # /register
 
+This API is used to register an account.
+
 ## POST /register
 
 body:

@@ -1,5 +1,7 @@
 # /login
 
+This API is used to login.
+
 ## POST /login
 
 body:

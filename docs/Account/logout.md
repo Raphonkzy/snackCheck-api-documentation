@@ -1,5 +1,7 @@
 # /logout
 
+This API is used to logout.
+
 ## POST /logout
 
 header:

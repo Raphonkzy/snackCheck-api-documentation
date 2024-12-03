@@ -1,5 +1,7 @@
 # /fullname
 
+This API is used to change fullname.
+
 ## PUT /fullname
 header:
 ```

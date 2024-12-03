@@ -1,5 +1,7 @@
 # /token
 
+This API is used to get a new accessToken from refresh token.
+
 ## POST /token
 
 body:

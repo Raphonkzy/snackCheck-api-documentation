@@ -1,5 +1,7 @@
 # /profile
 
+This API is used to update profile picture.
+
 ## GET /profile
 
 header:

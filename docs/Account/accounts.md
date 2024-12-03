@@ -1,6 +1,6 @@
 # /accounts
 
-This API is used to verify email.
+This API is used to verify account.
 
 ## POST /accounts
 

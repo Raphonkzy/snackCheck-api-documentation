@@ -1,5 +1,7 @@
 # /predicts
 
+This API is used to predict a snack.
+
 ## POST /predicts
 
 header:

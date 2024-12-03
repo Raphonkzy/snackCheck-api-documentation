@@ -1,5 +1,7 @@
 # /histories
 
+This API is used to get histories.
+
 ## GET /histories
 
 header:
