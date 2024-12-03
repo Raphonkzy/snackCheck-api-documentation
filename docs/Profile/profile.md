@@ -1,6 +1,6 @@
 # /profile
 
-This API is used to update profile picture.
+This API is used get profile information.
 
 ## GET /profile
 
@@ -16,8 +16,11 @@ response:
     "status": "success",
     "data": {
         "fullName": "urFullName",
-        "profilePhotoUrl": "urProfilePhotoUrl"
+        "username": "urUsername",
+        "email": "yourEmail@gmail.com",
+        "profilePhoto": "urPhotoUrl"
     }
 }
+
 ```
 
