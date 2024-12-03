@@ -24,3 +24,4 @@ response:
     "message": "Full name updated successfully",
     "fullName": "urNewFullName",
 }
+```
