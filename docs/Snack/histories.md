@@ -40,17 +40,17 @@ response
                 "protein": 8,
                 "sodium": 1.5
             },
-            "health_status": "Healthy",
-            "recommendation": "Good to consume 1 time per day",
+            "health_status": "health status result",
+            "recommendation": "recommendation result"
             "createdAt": "2024-11-29T12:58:48.181Z"
         }
     ]
 }
 ```
 
-## GET /histories/{{snackName}}
+## GET /histories/{{snackId}}
 
-This API is used to get history by snack name.
+This API is used to get history by snack id.
 
 header:
 ```
@@ -65,7 +65,8 @@ response:
     "status": "success",
     "message": "Snack successfully predicted",
     "result": {
-        "snackName": "Chips 1",
+        "snackId": "619ef4fffe31b9d8",
+        "snackName": "Chips 2",
         "nutritions": {
             "fat": 34,
             "saturated_fat": 2,
@@ -75,8 +76,9 @@ response:
             "protein": 8,
             "sodium": 1.5
         },
-        "health_status": "Healthy",
-        "recommendation": "Good to consume 1 time per day"
-    }
+        "health_status": "health status result",
+        "recommendation": "recommendation result"
+    }
 }
+
 ```

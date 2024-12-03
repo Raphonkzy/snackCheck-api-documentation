@@ -1,7 +1,9 @@
 # /predicts
 
 ## POST /predicts
+
 header:
+
 ```
 {
     "Authorization": "Bearer urAccessToken"
@@ -9,10 +11,12 @@ header:
 ```
 
 body:
+
 ```
 {
-  "snackName": "Chips 1",
-  "nutritions": {
+    "snackId": "619ef4fffe31b9d8",
+    "snackName": "Chips 1",
+    "nutritions": {
     "fat": 34,
     "saturated_fat": 2,
     "carbohydrates": 150,
@@ -25,11 +29,13 @@ body:
 ```
 
 response:
+
 ```
 {
     "status": "success",
     "message": "Snack successfully predicted",
     "result": {
+        "snackId": "619ef4fffe31b9d8",
         "snackName": "Chips 1",
         "nutritions": {
             "fat": 34,
