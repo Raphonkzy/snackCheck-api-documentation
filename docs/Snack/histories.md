@@ -27,8 +27,8 @@ response
                 "protein": 8,
                 "sodium": 0.2
             },
-            "health_status": "Healthy",
-            "recommendation": "Good to consume in moderate amounts",
+            "health_status": "health status result",
+            "recommendation": "recommendation result",
             "createdAt": "2024-11-26T09:47:53.299Z"
         },
         {

@@ -16,7 +16,6 @@ body:
 
 ```
 {
-    "snackId": "619ef4fffe31b9d8",
     "snackName": "Chips 1",
     "nutritions": {
     "fat": 34,
