@@ -17,6 +17,7 @@ response
     "status": "success",
     "data": [
         {
+            "snackId": "urSnackId",
             "snackName": "Chips",
             "nutritions": {
                 "fat": 24,
@@ -31,7 +32,8 @@ response
             "recommendation": "recommendation result",
             "createdAt": "2024-11-26T09:47:53.299Z"
         },
-        {
+        {   
+            "snackId": "urSnackId",
             "snackName": "Chips 1",
             "nutritions": {
                 "fat": 34,
@@ -96,6 +98,8 @@ header:
 
 response:
 ```
+{
     "status": "success",
     "message": "Snack successfully cleared"
+}
 ```
