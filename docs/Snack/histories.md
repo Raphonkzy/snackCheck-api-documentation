@@ -84,3 +84,18 @@ response:
 }
 
 ```
+
+## DELETE /histories
+
+header:
+```
+{
+    "Authorization": "Bearer urAccessToken"
+}
+```
+
+response:
+```
+    "status": "success",
+    "message": "Snack successfully cleared"
+```
