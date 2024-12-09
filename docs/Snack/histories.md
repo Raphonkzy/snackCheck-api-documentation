@@ -69,7 +69,7 @@ response:
     "status": "success",
     "message": "Snack successfully predicted",
     "result": {
-        "snackId": "619ef4fffe31b9d8",
+        "snackId": "urSnackId",
         "snackName": "Chips 2",
         "nutritions": {
             "fat": 34,

@@ -2,7 +2,7 @@
 
 This API is used get profile information.
 
-## GET /profile
+## GET /
 
 header:
 ```
