@@ -1,9 +1,11 @@
 # /password
 
 ## POST /password
+
 This API is used to forgot password.
 
 body:
+
 ```
 {
     "email": "youremail@gmail.com"
@@ -11,6 +13,7 @@ body:
 ```
 
 response:
+
 ```
 {
     "status": "success",
@@ -19,9 +22,11 @@ response:
 ```
 
 ## PUT /password
+
 This API is used to reset password.
 
 body:
+
 ```
 {
   "email": "youremail@gmail.com",
@@ -32,9 +37,32 @@ body:
 ```
 
 response:
+
 ```
 {
     "status": "success",
     "message": "Password successfully reset"
+}
+```
+
+## POST /verify
+
+This API is used to verify password reset code.
+
+body:
+
+```
+{
+    "email": "youremail@gmail.com",
+    "resetCode": "urVerificationCode"
+}
+```
+
+response:
+
+```
+{
+      status: "success",
+      message: "Reset code verified"
 }
 ```

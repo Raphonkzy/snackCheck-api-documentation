@@ -487,18 +487,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#post-password" class="md-nav__link">
+  <a href="#post" class="md-nav__link">
     <span class="md-ellipsis">
-      POST /password
+      POST /
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#put-password" class="md-nav__link">
+  <a href="#put" class="md-nav__link">
     <span class="md-ellipsis">
-      PUT /password
+      PUT /
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#post-verify" class="md-nav__link">
+    <span class="md-ellipsis">
+      POST /verify
     </span>
   </a>
   
@@ -777,7 +786,8 @@
 
 
 <h1 id="password">/password</h1>
-<h2 id="post-password">POST /password</h2>
+<p>base url <code>https://backend-dot-capstone-snackcheck.et.r.appspot.com/auth/password</code></p>
+<h2 id="post">POST /</h2>
 <p>This API is used to forgot password.</p>
 <p>body:</p>
 <pre><code>{
@@ -790,7 +800,7 @@
     &quot;message&quot;: &quot;Password reset code sent successfully&quot;
 }
 </code></pre>
-<h2 id="put-password">PUT /password</h2>
+<h2 id="put">PUT /</h2>
 <p>This API is used to reset password.</p>
 <p>body:</p>
 <pre><code>{
@@ -804,6 +814,20 @@
 <pre><code>{
     &quot;status&quot;: &quot;success&quot;,
     &quot;message&quot;: &quot;Password successfully reset&quot;
+}
+</code></pre>
+<h2 id="post-verify">POST /verify</h2>
+<p>This API is used to verify password reset code.</p>
+<p>body:</p>
+<pre><code>{
+    &quot;email&quot;: &quot;youremail@gmail.com&quot;,
+    &quot;resetCode&quot;: &quot;urVerificationCode&quot;
+}
+</code></pre>
+<p>response:</p>
+<pre><code>{
+      status: &quot;success&quot;,
+      message: &quot;Reset code verified&quot;
 }
 </code></pre>
 

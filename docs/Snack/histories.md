@@ -30,6 +30,15 @@ response
             },
             "health_status": "health status result",
             "recommendation": "recommendation result",
+            "categories": {
+            "carbohydrates": "Very High in carbohydrates",
+            "fat": "Very High in fat",
+            "fiber": "Very Low in fiber",
+            "proteins": "Low in proteins",
+            "saturated_fat": "Moderate in saturated fat",
+            "sodium": "Very High in sodium",
+            "sugars": "Very High in sugars"
+        },
             "createdAt": "2024-11-26T09:47:53.299Z"
         },
         {   
@@ -45,7 +54,16 @@ response
                 "sodium": 1.5
             },
             "health_status": "health status result",
-            "recommendation": "recommendation result"
+            "recommendation": "recommendation result",
+            "categories": {
+            "carbohydrates": "Very High in carbohydrates",
+            "fat": "Very High in fat",
+            "fiber": "Very Low in fiber",
+            "proteins": "Low in proteins",
+            "saturated_fat": "Moderate in saturated fat",
+            "sodium": "Very High in sodium",
+            "sugars": "Very High in sugars"
+        },
             "createdAt": "2024-11-29T12:58:48.181Z"
         }
     ]
@@ -81,7 +99,17 @@ response:
             "sodium": 1.5
         },
         "health_status": "health status result",
-        "recommendation": "recommendation result"
+        "recommendation": "recommendation result",
+        "categories": {
+            "carbohydrates": "Very High in carbohydrates",
+            "fat": "Very High in fat",
+            "fiber": "Very Low in fiber",
+            "proteins": "Low in proteins",
+            "saturated_fat": "Moderate in saturated fat",
+            "sodium": "Very High in sodium",
+            "sugars": "Very High in sugars"
+        },
+        "createdAt": "2024-11-29T12:58:48.181Z"
     }
 }
 
