@@ -19,6 +19,7 @@ Ensure the bearer token is included in the header of all requests requiring auth
 2. Base URL for snack: ```https://backend-dot-capstone-snackcheck.et.r.appspot.com/snack```
 3. Base URL for accounts: ```https://backend-dot-capstone-snackcheck.et.r.appspot.com/auth```
 4. Base URL for profile: ```https://backend-dot-capstone-snackcheck.et.r.appspot.com/profile```
+5. Base URL for machine learning: ```https://ml-api-711542614177.asia-southeast2.run.app```
 
 ---
 

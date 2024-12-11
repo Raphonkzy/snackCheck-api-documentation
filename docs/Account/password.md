@@ -45,7 +45,7 @@ response:
 }
 ```
 
-## POST /verify
+## POST /password/verify
 
 This API is used to verify password reset code.
 

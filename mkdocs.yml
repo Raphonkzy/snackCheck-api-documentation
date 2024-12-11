@@ -48,3 +48,5 @@ nav:
   - Snack:
       - /predicts: Snack/predicts.md
       - /histories: Snack/histories.md
+  - Machine Learning:
+      - / : Machine Learning/ml.md
